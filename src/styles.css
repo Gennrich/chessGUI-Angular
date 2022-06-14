@@ -1,0 +1,169 @@
+
+h1 {
+    font-family: Verdana;
+    font-size: 18px;
+    color: white;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 13px;
+    color: white;
+}
+
+
+h2 {
+    font-family: Verdana;
+    text-align: center;
+    color: #e50043;
+}
+
+
+#whiteBar {
+    width: 30px;
+    height: 850px;
+    position: relative;
+    background: white;
+    border-color: black;
+    border-radius: 6px;
+  }
+  
+  #blackBar {
+    width: 30px;
+    height: 425px;
+    position: absolute;
+    background: black;
+    border-color: black;
+    border-radius: 6px;
+  }
+
+  #Zughistorie {
+      float: left;
+  }
+
+  td { 
+      align-items: center;
+      text-align: center;
+        
+    /* border: 1px solid;
+    border-color: black; */
+  }
+
+
+  #header {
+    background-color: white;
+  }
+
+  #footer {
+    background-color: #455059;
+    height: 300px;
+    margin-top: -50px; /* Höhe des Footers */
+  }
+
+  #content {
+    margin-left: 2%;
+  }
+
+
+  /* damit kein weißer Rand um die Fußleiste entsteht */
+  body { 
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+  }
+
+  html {
+    height: 100%;
+  }
+
+  main {
+    padding-bottom:50px; /* Höhe des Footers */
+   } 
+
+  table {
+    background-color: #62717c;  
+    width: 100%;
+    height: auto; 
+    min-height: 100%;
+  }
+
+  input {
+    background-color: #afafaf;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+  }
+
+  textarea {
+      width: 250px;
+      height: 850px;
+      font-size: 20px;
+      resize: none;
+      background-color: #afafaf;
+      border-radius: 5px;
+      text-align: center;
+  }
+
+  button:hover {
+      background-color: #455059;
+      color: white;
+  }
+
+  
+  button, .dropbtn{
+    background-color: #afafaf;
+    color: black;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+a {
+  font-family: Verdana;
+  font-size: 13px;
+  color: white;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #afafaf;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #455059;
+  color: white;
+}
